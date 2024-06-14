@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+  <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="style.css">
+  <title>Discord</title>
+ 
+  
+</head>
+
+<body>
+ 
+  <div class="overflow-x-hidden overflow-y-hidden">
+
+    <div class="bg-custom-brand  relative ">
+      
+      <nav class="flex bg-custom-brand h-16 items-center justify-between lg:justify-around mx-8     ">
+        <div class="text-white text-xl font-bold">
+          <i class="fab fa-discord"></i>
+          Discord
+        </div>
+      
+        <div class="text-white space-x-5 hidden lg:block">
+          <a href="#" class="hover:underline">Download</a>
+          <a href="#" class="hover:underline">Nitro</a>
+          <a href="#" class="hover:underline">Discover</a>
+          <a href="#" class="hover:underline">Safety 
+          </a>
+          <a href="#" class="hover:underline">Support</a>
+          <a href="#" class="hover:underline">Blog</a>
+          <a href="#" class="hover:underline">Careers</a>
+        </div>
+      
+        <div class="flex gap-6">
+          <a href="#" class="text-black bg-white px-3 py-2 rounded-3xl hover:text-blue-500" id="loginBtn">Login</a>
+          <a href=""><i class="fa-solid fa-bars text-white block lg:hidden text-4xl" id="menuIcon"></i></a>
+
+        </div>
+      </nav>
+      <!-- responsive -->
+      <div id="loginMenu" class="  login-menu hidden lg:hidden bg-white w-[360px]  fixed top-0 right-0 h-full overflow-auto z-50 transition duration-300">
+        <div class="flex justify-around  mb-10"> 
+          <div class="text-black text-xl font-bold" id="cross">
+            <i class="fab fa-discord" ></i>
+            Discord
+          </div>
+
+          <div>
+            <a href="#" class="text-blue-600 text-xl" id="loginBtn">Login</a>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-xmark text-3xl" id="closeMenu"></i>
+          </div>
+
+
+        </div >
+        <div class="">
+          <hr>
+        </div>
+        <a href="#" class="block px-4 py-2 hover:text-blue-500 text-xl">Download</a>
+        <a href="#" class="block px-4 py-2 hover:text-blue-500 text-xl">Nitro</a>
+        <a href="#" class="block px-4 py-2 hover:text-blue-500 text-xl">Discover</a>
+        <div class="flex justify-between">
+         <a href="#" class="block px-4 py-2 hover:text-blue-500 text-xl">Safety</a>
+         <i class="fa-solid fa-angle-right  mt-4 mr-14"></i> 
+        </div>
+        <a href="#" class="block px-4 py-2 hover:text-blue-500 text-xl">Support</a>
+        <a href="#" class="block px-4 py-2 hover:text-blue-500 text-xl">Blog</a>
+        <a href="#" class="block px-4 py-2 hover:text-blue-500 text-xl">Careers</a>
+
+        <div class="mt-60 ">
+          <a href="#" class="text-black bg-indigo-400 px-8 py-3 rounded-3xl  text-xl md:py-auto flex justify-center">
+            <span><i class="fa-solid fa-download"></i>&nbsp;</span>Download for Windows
+          </a>
+        </div>
+      </div>
+      
+
+      <div class=" h-[620px] mb-20 sm:auto">
+        <!-- start mark -->
+        <img src="./images/star.svg" alt="">
+        <div class="flex justify-center text-6xl text-white font-extrabold   ">
+          IMAGINE A PLACE...
+        </div>
+
+
+        <div class=" flex flex-row  justify-center items-center mx-auto  ">
+          <!-- responsive design -->
+          <div class="block h-[800px] xl:hidden absolute mt-[990px] left-[-200px] overflow-hidden">
+            <img src="./images/discord-left.svg" class=" h-52 mb-20   " alt="Your Image ">
+          </div>
+          
+          <div class=" hidden xl:block  absolute  bottom-0 left-[-200px] ">
+            <img src="./images/discord-left.svg" class=" h-80    " alt="Your Image ">
+          </div>
+          <!--  responsive design -->
+          <div class="lg:hidden">
+            <div class="  text-white text-xl max-w-2xl">
+              ...where you can belong to a school club, a gaming group, or a worldwide art community. Where just you and
+              a handful of friends can spend time together. A place that makes it easy to talk every day and hang out
+              more often.
+            </div>
+            <div class="flex flex-col space-y-4 float-left py-3 px-3 md:flex-row md:space-x-6 md:mt-5 md:mb-44 ">
+              <a href="#" class="text-black bg-white px-5 py-3 rounded-3xl hover:text-blue-500 text-xl md:py-auto ">
+                <span><i class="fa-solid fa-download"></i>&nbsp;</span>Download for Windows
+              </a>
+              <a href="#" class="text-white bg-blue-950 hover:bg-blue-900 px-5 py-3 rounded-3xl hover:text-blue-500 text-xl ">
+                Open Discord in Your Browser
+              </a>
+              
+              
+             
+            </div>
+           
+            
+          </div>
+          
+
+           
+          
+          <div class="hidden lg:block">
+            <div class=" text-white text-xl max-w-2xl">
+              ...where you can belong to a school club, a gaming group, or a worldwide art community. Where just you and
+              a handful of friends can spend time together. A place that makes it easy to talk every day and hang out
+              more often.
+            </div>
+            <div class="space-x-6 mt-5 mb-44">
+              <a href="#" class="text-black bg-white px-5 py-3 rounded-3xl hover:text-blue-500 text-xl">
+                <span><i class="fa-solid fa-download"></i>&nbsp;</span>Download for Windows
+              </a>
+              <a href="#" class="text-white bg-blue-950 hover:bg-blue-900 px-5 py-3 rounded-3xl hover:text-blue-500 text-xl">
+                Open Discord in Your Browser
+              </a>
+            </div>
+          </div>
+          
+            
+
+          
+          
+          
+          
+          <div class=" hidden lg:block absolute  bottom-0 right-[-145px] bg-custom-brand ">
+            <img src="./images/discord-right.svg" class="hidden lg:block h-64   " alt="Your Image">
+            
+          </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+
+    </div>
+
+
+
+
+
+<!-- section 2 -->
+
+    <div class="flex flex-col justify-center items-center lg:flex-row lg:justify-evenly lg:mb-32 lg:mt-32">
+      <div class="">
+        <img src="./images/left image.svg" alt="">
+      </div>
+
+      <div class="max-w-80 mt-20 space-y-6 ">
+        <div class="text-4xl font-bold ">
+          Create an invite-only place where you belong
+        </div>
+
+        <div class="">
+          Discord servers are organized into topic-based channels where you can collaborate, share, and just talk about
+          your day without clogging up a group chat.
+        </div>
+
+      </div>
+
+    </div>
+
+  <!--  section 3 -->
+  <!-- responsive site -->
+    <div class=" hidden lg:flex bg-custom-brand1   lg:justify-evenly lg:mb-32 lg:mt-32 mt-32">
+
+
+      <div class="max-w-80 mt-20 space-y-6">
+        <div class="text-4xl font-bold ">
+          Where hanging out is easy
+        </div>
+
+        <div class="">
+          Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and instantly
+          pop in to talk without having to call.
+        </div>
+
+      </div>
+
+      <div class="">
+        <img src="./images/voice connected.svg" alt="">
+      </div>
+
+
+    </div>
+
+   
+
+    <div class=" lg:hidden flex flex-col justify-center items-center mt-32 bg-custom-brand1  ">
+
+      <div class="">
+        <img src="./images/voice connected.svg" alt="">
+      </div>
+
+      <div class="max-w-80 mt-20 space-y-6">
+        <div class="text-4xl font-bold ">
+          Where hanging out is easy
+        </div>
+
+        <div class="">
+          Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and instantly
+          pop in to talk without having to call.
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="mt-10">
+
+    </div>
+
+    
+   <!--  section 4 -->
+<!--  responsive media query -->
+    <div class="flex flex-col justify-center items-center lg:flex-row lg:justify-evenly lg:mb-32 lg:mt-32 mt-32">
+
+
+      <div class="">
+        <img src="./images/coach.svg" alt="">
+      </div>
+      <div class="max-w-80 mt-20 space-y-6">
+        <div class="text-4xl font-bold ">
+          From few to a fandom
+        </div>
+
+        <div class="">
+          Get any community running with moderation tools and custom member access. Give members special powers, set up
+          private channels, and more.
+        </div>
+
+      </div>
+
+    </div>
+
+<!--  section 5 -->
+    <div class="flex flex-col mx-auto bg-custom-brand1 items-center justify-center  mb-32 ">
+      <div class="text-5xl font-bold max-w-4xl mt-32">
+        RELIABLE TECH FOR STAYING CLOSE
+      </div>
+
+      <div class="mt-6 max-w-3xl ">
+        Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream
+        their games, or gather up and have a drawing session with screen share.
+      </div>
+
+      <div class="mt-14 max-w-full ">
+        <img src="./images/just_chiling.svg" alt="just chiling">
+      </div>
+
+      <div class="text-3xl font-bold select-none mt-28">
+        Ready to Start your journey?
+      </div>
+      <!-- start mark -->
+      <img src="./images/star.svg" alt="" class="flex justify-between">
+
+      <div> <a href="" class="sm:px-5 sm:mb20 sm:size-min sm:py-3 px-16 py-5 text-white bg-custom-brand rounded-3xl  sm:rounded-2xl opacity-100 hover:opacity-60  text-xl">
+          <span><i class="fa-solid fa-download"></i> &nbsp; </span>Download for Window</a></div>
+
+    </div>
+
+
+
+    <!--  footer section -->
+
+    <section class="bg-custom-foot   lg:bg-custom-foot mx-auto ">
+
+      <div class="flex flex-col  sm:flex-row h-[800px] justify-around  space-x-16  space-y-12  sm:h-[600px]  -ml-14 sm:ml-0   ">
+        <div>
+
+        </div>
+        <!-- left part -->
+        <!-- <div class="hidden sm:hidden">
+
+          <div class="flex  items-center space-x-2 mt-16 ">
+            <img src="./images/india.png" alt="" class="w-4 h-4">
+            <div class="gap-1 text-white">English</div>
+            <div> <i class="fa-solid fa-angle-right text-white rotate-90 "></i></div>
+
+          </div>
+
+          <div class="space-y-10 space-x-4">
+            <i class="fa-brands fa-x-twitter text-white"></i>
+            <i class="fa-brands fa-instagram text-white"></i>
+            <i class="fa-brands fa-facebook text-white"></i>
+            <i class="fa-brands fa-youtube text-white"></i>
+            <i class="fa-brands fa-tiktok text-white"></i>
+          </div>
+
+        </div> -->
+<!-- responsive -->
+        <div class="float-left ">
+
+          <div class="flex  items-center space-x-2 mt-16 ">
+            <img src="./images/india.png" alt="" class="w-4 h-4">
+            <div class="gap-1 text-white">English</div>
+            <div> <i class="fa-solid fa-angle-right text-white rotate-90 "></i></div>
+
+          </div>
+
+          <div class="space-y-10 space-x-4 ">
+            <i class="fa-brands fa-x-twitter text-white"></i>
+            <i class="fa-brands fa-instagram text-white"></i>
+            <i class="fa-brands fa-facebook text-white"></i>
+            <i class="fa-brands fa-youtube text-white"></i>
+            <i class="fa-brands fa-tiktok text-white"></i>
+          </div>
+
+        </div>
+
+        <!-- right part -->
+        <div class=" lg:flex lg:flex-row  lg:space-x-12 lg:space-y-0  flex flex-col space-y-10  ">
+
+        <div class="flex  ">
+          
+                        <!-- 1 -->
+                        <div>
+                          <div class="text-blue-500">
+                            Product
+                          </div>
+
+                          <div class="flex flex-col mt-6 text-white space-y-3 ">
+                            <a href="" class="hover:underline">Download</a>
+                            <a href="" class="hover:underline">Nitro</a>
+                            <a href="" class="hover:underline">Status</a>
+                            <a href="" class="hover:underline"> App Directory</a>
+                            <a href="" class="hover:underline">New Mobile Experience</a>
+                          </div>
+                        </div>
+
+                      <!-- 2 -->
+                        <div class="">
+                          <div class="text-blue-500">
+                            Company
+                          </div>
+                          <div class="flex flex-col mt-6 text-white space-y-3">
+                            <a href="" class="hover:underline"> About</a>
+                            <a href="" class="hover:underline">Jobs</a>
+                            <a href="" class="hover:underline">Brand</a>
+                            <a href="" class="hover:underline"> Newsroom</a>
+
+                          </div>
+                        </div>
+        
+        </div>
+      
+        <div class="flex ">
+
+          <!-- 3 -->
+                  <div class=" ">
+                    <div class="text-blue-500">
+                      Resources
+                    </div>
+                    <div class="flex flex-col mt-6 text-white space-y-3">
+                      <a href="" class="hover:underline"> College</a>
+                      <a href="" class="hover:underline">Support</a>
+                      <a href="" class="hover:underline"> Blog</a>
+                      <a href="" class="hover:underline">Feedback</a>
+                      <a href="" class="hover:underline"> StreamKit</a>
+                      <a href="" class="hover:underline">Creators</a>
+                      <a href="" class="hover:underline">Community</a>
+                      <a href="" class="hover:underline"> Gaming</a>
+                      <a href="" class="hover:underline"> Developers</a>
+                      <a href="" class="hover:underline"> Quests</a>
+                      <a href="" class="hover:underline"> Official 3rd Party Merch</a>
+
+                    </div>
+                  </div>
+                  <!-- 4 -->
+                  <div>
+                    <div class="text-blue-500">
+                      Policies
+                    </div>
+                    <div class="flex flex-col mt-6 text-white space-y-3">
+                      <a href="" class="hover:underline">Terms</a>
+                      <a href="" class="hover:underline">Privacy</a>
+                      <a href="" class="hover:underline">Cookie Settings</a>
+                      <a href="" class="hover:underline"> Guidelines</a>
+                      <a href="" class="hover:underline">Acknowledgements</a>
+                      <a href="" class="hover:underline">Licenses</a>
+                      <a href="" class="hover:underline">Company Information</a>
+
+                    </div>
+                  </div>
+        </div>
+     
+
+
+
+        </div>
+
+
+
+
+      </div>
+
+      <!-- footer part -->
+
+      <div class="flex justify-center mt-40 lg:mt-0 ">
+        <div class="border-b border-blue-600 w-[1200px] "></div>
+
+      </div>
+
+      <div class="flex justify-between mx-20 mt-4 mb-1 border-blue-600">
+        <div class="text-white text-xl font-bold">
+          <i class="fab fa-discord"></i>
+          Discord
+        </div>
+
+        <div class="mt-2 h-32">
+          <a href="" class="text-white bg-blue-500 px-3 py-2 rounded-3xl opacity-100 hover:opacity-65">Sign up</a>
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+    </section>
+  </div>
+
+
+
+
+
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var menuIcon = document.getElementById('menuIcon');
+      var loginMenu = document.getElementById('loginMenu');
+      var closeMenuIcon = document.getElementById('closeMenu');
+  
+      menuIcon.addEventListener('click', function(event) {
+        event.preventDefault();
+        loginMenu.classList.toggle('hidden');
+      });
+  
+      closeMenuIcon.addEventListener('click', function(event) {
+        event.preventDefault();
+        loginMenu.classList.add('hidden');
+      });
+    });
+  </script>
+  
+  
+  
+</body>
+
+</html>
